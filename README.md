@@ -317,9 +317,6 @@ pytest --testy --testy-plan=105
 # С отчетом Allure
 pytest --alluredir=./allure-results --testy --testy-plan=105
 
-# Мобильное тестирование с устройством
-pytest --device=pixel_8 --testy --testy-plan=105
-
 # Подробный вывод
 pytest -v --testy --testy-plan=105
 
