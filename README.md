@@ -101,9 +101,6 @@ pytest --testy --testy-plan=105
 # With Allure reporting
 pytest --alluredir=./allure-results --testy --testy-plan=105
 
-# Mobile testing with device
-pytest --device=pixel_8 --testy --testy-plan=105
-
 # Verbose output
 pytest -v --testy --testy-plan=105
 
